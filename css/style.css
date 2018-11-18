@@ -1,0 +1,104 @@
+
+    body, html {
+      height: 100vh;
+      width: 200vh;
+      margin: 0;
+      background: black;
+    }
+
+    .nav {
+      border-bottom: 3px solid white;
+      height: 70px;
+    }
+
+    ul {
+      position: fixed;
+      width: 100%;
+      margin: 0;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    li:last-child {
+      float:right;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      color: #ff99ff;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .socialLinks-dropdown {
+      display:none;
+      min-width: 400px;
+      position: absolute;
+      background-color: black;
+      border-left: 3px solid #ff99ff;
+      border-bottom: 3px solid #ff99ff;
+      border-right: 3px solid #ff99ff;
+      line-height: 10px;
+      margin: -15px auto;
+    }
+
+    .dropdown:hover .socialLinks-dropdown {
+      display: block;
+    }
+
+    .center {
+      text-align:center;
+      padding: 180px;
+
+    }
+
+    .boldtext {
+      font-family: Impact, Charcoal, sans-serif;
+      font-size: 120px;
+      text-align: center;
+      vertical-align: center;
+      color: white;
+    }   
+      
+    span {
+      font-family: Impact, Charcoal, sans-serif;
+      font-size: 75px;
+      color: #ff99ff;
+    }
+
+    .footer {
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      bottom: 0;
+      border-top: 3px solid #ff99ff;
+      line-height: 30px;
+    }
+
+    .footer span {
+      font-family: "Times New Roman", Times, serif;
+      color: #ff99ff;
+      float:right;
+      padding: 0px 16px;
+      font-size: 30px;
+    }
+
+    .footer span:last-child {
+      font-size:18px;
+      color: #ffccff;
+      line-height: 22px;
+    }
